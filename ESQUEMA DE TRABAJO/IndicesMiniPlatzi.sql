@@ -1,8 +1,8 @@
 -- Catálogo de cursos
--- Usuarios filtran cursos por nombre, categoría o nivel
+-- Usuarios filtran cursos por nombre y categoría 
 CREATE INDEX idx_curso_titulo ON curso(titulo);
-CREATE INDEX idx_curso_categoria ON curso(descripcion(100)); -- asumiendo que 'descripcion' contiene info de categoría/nivel
-CREATE INDEX idx_curso_nivel ON curso(nivel); -- si nivel es un campo separado
+CREATE INDEX idx_curso_categoria ON curso(descripcion(100)); 
+
 -- Progreso del usuario
 -- Mostrar avance por usuario y curso
 CREATE INDEX idx_progreso_usuario ON progreso(usuario_id);
