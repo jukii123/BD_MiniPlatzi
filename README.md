@@ -35,10 +35,10 @@ Mini Platzi permite:
 📁 Incluye más de 15 tablas relacionales con claves foráneas, índices y procedimientos.
 
 ### 🗂️ Modelo Relacional (Esquema Conceptual)
-![Modelo Relacional](/img/modelo-relacional.png)
+![Modelo Relacional](/Modelos/Modelo ER.png)
 
 ### 🏗️ Esquema físico (SQL - Diagrama ER)
-![Esquema de Base de Datos](/img/esquema-bd.png)
+![Esquema de Base de Datos](/Modelos/Esquema Base de datos.png)
 
 ---
 
